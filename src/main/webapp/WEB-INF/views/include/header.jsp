@@ -44,7 +44,7 @@ header ul li input { display:block; }
 <header style="border-bottom: 1px solid #ccc; padding: 15px 0; text-align: left">
 	<div class="category" style="margin-left: 100px;"> 
 		<ul>
-			<li><a href="<core:url value='/' />"><img src="img/logo.png" /></a></li>
+			<li><a href="<core:url value='/' />"><img src="img/logo.png" style="width: 7%"/></a></li>
 			<core:if test="${login_info.admin eq 'Y' }">
 			<li><a href='list.cu' ${category eq 'cu' ? "class='active'" : '' } >고객 관리</a></li>
 			</core:if>
